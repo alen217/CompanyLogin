@@ -1,0 +1,33 @@
+<LinearLayout
+    android:layout_height="match_parent" android:layout_width="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:text="EMPLOYEE CODE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/ecode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="10dp"
+        android:id="@+id/search"
+        android:background="#3F51B5"
+        android:textColor="#ffffff"
+        android:text="search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="10dp"
+        android:id="@+id/bmenu"
+        android:background="#A6345B"
+        android:textColor="#ffffff"
+        android:text="back to menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
